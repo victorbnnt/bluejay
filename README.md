@@ -1,4 +1,5 @@
 # 315 birds species recognition algorithm
+<br/>
 ---
 The application will find the species of a bird from the provided image. It is available here: <a href="https://bluejay-c7humgbxkq-ew.a.run.app//" target="_blank">Bird species finder</a>
 ---
