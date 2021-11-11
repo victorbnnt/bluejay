@@ -1,0 +1,43 @@
+steps:
+# Build the container image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/liquid-projects/bluejay', '.']
+  timeout: 1000s
+
+# Push the container image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/liquid-projects/bluejay']
+  timeout: 1000s
+
+# Deploy to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args: ['run',
+         'deploy',
+         'bluejay',
+         '--project',
+         'liquid-projects',
+         '--platform',
+         'managed',
+         '--region',
+         'europe-west1',
+         '--image',
+         'gcr.io/liquid-projects/bluejay:latest',
+         '--port',
+         '8080',
+         '--memory',
+         '4096Mi',
+         '--allow-unauthenticated']
+
+# Deploy to Kubernetes cluster
+- name: "gcr.io/cloud-builders/gke-deploy"
+  args: ['run',
+         '--filename',
+         'k8s/',
+         '--location',
+         'europe-west1-b',
+         '--cluster',
+         'bluejay-kube']
+
+# total timeout
+timeout: 10000s

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bluejay
+spec:
+  type: LoadBalancer
+  selector:
+    app: bluejay
+  ports:
+  - port: 80
+    targetPort: 8080

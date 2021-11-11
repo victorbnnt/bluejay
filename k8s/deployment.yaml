@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bluejay
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bluejay
+  template:
+    metadata:
+      labels:
+        app: bluejay
+    spec:
+      containers:
+      - name: cv-app
+        image: gcr.io/liquid-projects/bluejay:latest
+        ports:
+        - containerPort: 8080

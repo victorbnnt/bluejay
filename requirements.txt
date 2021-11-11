@@ -1,0 +1,19 @@
+# data science
+numpy
+pandas
+
+# API
+gcsfs
+google-cloud-storage
+s3fs
+requests
+tensorflow
+# utilities
+pillow
+dash
+dash-bootstrap-components==0.13.0
+dash-colorscales==0.0.4
+dash-core-components==2.0.0
+dash-daq==0.5.0
+dash-html-components==2.0.0
+dash-table==5.0.0

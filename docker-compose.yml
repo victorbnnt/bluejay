@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  bluejay:
+    #build: .
+    #  #context: .
+    #  #dockerfile: drup.Dockerfile
+    image: victorbnnt/bluejay
+    ports:
+      - "80:8080"
