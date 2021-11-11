@@ -12,4 +12,5 @@ It can recognize 315 bird species with overall 95% accuracy. The available speci
 The Kaggle dataset is here: <a href="https://www.kaggle.com/gpiosenka/100-bird-species" target="_blank">315 Bird Species - Classification</a><br/><br/>
 The notebook explaining how the model is trained is here: <a href="https://www.kaggle.com/victorbnnt/95-accuracy-on-315-birds-species" target="_blank">95% accuracy on 315 Birds species</a><br/><br/>
 
-
+---
+Here is the list of available bird species to be predicted by the application:
