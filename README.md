@@ -7,8 +7,8 @@ The application will find the species of a bird from the provided image. It is a
 ![bluejay](images/toucan.jpeg)
 
 ---
-The model is made using transfert learning from VGG16 CNN model and the images used for training come from Kaggle dataset.<br/>
-It can recognize 315 bird species with a good accuracy listed bellow.<br/>
-The Kaggle dataset is here: <a href="https://www.kaggle.com/gpiosenka/100-bird-species" target="_blank">315 Bird Species - Classification</a>
+The model is made using transfert learning from VGG16 CNN model and the images used for training come from Kaggle dataset.<br/><br/>
+It can recognize 315 bird species with a good accuracy listed bellow.<br/><br/>
+The Kaggle dataset is here: <a href="https://www.kaggle.com/gpiosenka/100-bird-species" target="_blank">315 Bird Species - Classification</a><br/><br/>
 
 
