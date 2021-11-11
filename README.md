@@ -4,7 +4,8 @@ The application will find the species of a bird from the provided image. It is a
 <br/>
 
 ---
-It can recognize 315 bird species with a good accuracy
+It can recognize 315 bird species with a good accuracy.<br/>
+The model is made using transfert learning from VGG16 CNN model and the images used for training come from Kaggle dataset.
 
 ![bluejay](images/toucan.jpeg)
 
