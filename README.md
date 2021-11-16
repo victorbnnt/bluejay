@@ -2,7 +2,7 @@
 <br/>
 This application is made with <a href="https://plotly.com/dash/" target="_blank">Dash</a>, it will find the species of a bird from the provided image. It is available here: <a href="https://bluejay-c7humgbxkq-ew.a.run.app" target="_blank">Bird species finder</a>
 <br/>
-It is deployed on Cloud Run service on Google Cloud Platform, and can also run on Google Kubernetes Engine for the exercise.
+It is deployed on <b>Cloud Run</b> service on <b>Google Cloud Platform</b>, and can also run on <b>Google Kubernetes Engine</b> for the exercise.
 
 ---
 ![bluejay](images/toucan.jpeg)
