@@ -1,6 +1,6 @@
 # 315 birds species recognition algorithm
 <br/>
-The application will find the species of a bird from the provided image. It is available here: <a href="https://bluejay-c7humgbxkq-ew.a.run.app" target="_blank">Bird species finder</a>
+This application is made with <a href="https://plotly.com/dash/" target="_blank">Dash</a>, it will find the species of a bird from the provided image. It is available here: <a href="https://bluejay-c7humgbxkq-ew.a.run.app" target="_blank">Bird species finder</a>
 <br/>
 
 ---
